@@ -40,8 +40,8 @@
         },
         "body": {
             "loremParagraphs": {
-                "minLength": 100,
-                "maxLength": 200
+                "minLength": 400,
+                "maxLength": 600
             }
         },
         "category": {
