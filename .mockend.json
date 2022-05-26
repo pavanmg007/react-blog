@@ -1,35 +1,37 @@
-{"Category": {
-        "string": [
-            "tourism",
-            "fitness",
-            "tech",
-            "food"
-                ],
-        "Post": {
-            "cover": {
-                "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1270"
-            },
-            "title": {
-                "loremWords": {
-                    "minLength": 10,
-                    "maxLength": 20
-                }
-            },
-            "body": {
-                "loremParagraphs": {
-                    "minLength": 100,
-                    "maxLength": 200
-                }
-            },
-            "isDraft": {
-                "boolean": {}
-            },
-            "createdAt": {
-                "dateTime": {
-                    "min": "2010-01-01T00:00:00Z",
-                    "max": "2020-12-31T23:59:59Z"
-                }
-            }
-        }
+{
+  "Post": {
+    "cover": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1270"
+    },
+    "title": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
+    "body": {
+      "loremParagraphs": {
+        "minLength": 200,
+        "maxLength": 300
+      }
+    },
+    "category": {
+      "string": [
+        "food",
+        "tech",
+        "tourism",
+        "fitness",
+        "sandlewood"
+      ]
+    },
+    "isDraft": {
+      "boolean": {}
+    },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
     }
+  }
 }
