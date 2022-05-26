@@ -17,12 +17,12 @@
         },
         "category": {
             "string": [
-                "Food",
-                "Technology",
-                "Tourism",
-                "Fitness",
-                "Sandalwood",
-                "Hollywood"
+                "food",
+                "technology",
+                "tourism",
+                "fitness",
+                "sandalwood",
+                "hollywood"
             ]
         },
         "author": {
