@@ -1,42 +1,54 @@
 {
-  "Post": {
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1270"
-    },
-    "title": {
-      "loremSentences": {
-        "minLength": 15,
-        "maxLength": 20
-      }
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 200,
-        "maxLength": 300
-      }
-    },
-    "category": {
-      "string": [
-        "food",
-        "tech",
-        "tourism",
-        "fitness",
-        "sandlewood"
-      ]
-    },
-    "author": {
-    "string": [
-      "Pavan",
-      "Atul",
-      "Devesh",
-      "Vijay"
-    ]
-  },
-    "createdAt": {
-      "dateTime": {
-        "min": "2019-01-01T00:00:00Z",
-        "max": "2022-05-31T23:59:59Z"
-      }
+    "Post": {
+        "cover": {
+            "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1270"
+        },
+        "title": {
+            "loremSentences": {
+                "minLength": 15,
+                "maxLength": 20
+            }
+        },
+        "body": {
+            "loremParagraphs": {
+                "minLength": 200,
+                "maxLength": 300
+            }
+        },
+        "category": {
+            "string": [
+                "food",
+                "tech",
+                "tourism",
+                "fitness",
+                "sandlewood"
+            ]
+        },
+        "author": {
+            "string": [
+                "Pavan",
+                "Atul",
+                "Devesh",
+                "Vijay"
+            ]
+        },
+        "createdAt": {
+            "dateTime": {
+                "min": "2021-01-01T00:00:00Z",
+                "max": "2022-05-31T23:59:59Z"
+            }
+        },
+        "likes": {
+            "int": {
+                "min": 0,
+                "max": 1000000
+            }
+        },
+        "views": {
+            "int": {
+                "min": 100,
+                "max": 1000000
+            }
+        }
     }
-  }
 }
