@@ -5,8 +5,8 @@
         },
         "title": {
             "loremSentences": {
-                "minLength": 15,
-                "maxLength": 20
+                "minLength": 30,
+                "maxLength": 50
             }
         },
         "body": {
