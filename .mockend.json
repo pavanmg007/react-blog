@@ -11,8 +11,8 @@
         },
         "body": {
             "loremParagraphs": {
-                "minLength": 200,
-                "maxLength": 300
+                "minLength": 1000,
+                "maxLength": 1300
             }
         },
         "category": {
